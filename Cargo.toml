@@ -5,3 +5,5 @@ repository = "https://github.com/Sirius902/flow-solver/"
 edition = "2021"
 
 [dependencies]
+ordered-float = "3.6.0"
+thiserror = "1.0.40"

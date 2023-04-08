@@ -1,3 +1,12 @@
+use flow_solver::problem::flow::{self, Board};
+
 fn main() {
-    println!("Hello, world!");
+    let g: Board<u8> = flow::board!([
+        [. . .]
+        [. . 0]
+        [0 . .]
+        [. . .]
+    ]);
+
+    println!("{:?}", g);
 }
