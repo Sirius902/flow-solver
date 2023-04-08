@@ -1,0 +1,7 @@
+[package]
+name = "flow-solver"
+version = "0.1.0"
+repository = "https://github.com/Sirius902/flow-solver/"
+edition = "2021"
+
+[dependencies]
